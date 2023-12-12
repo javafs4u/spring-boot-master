@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "64f382ee-1b48-4873-81ae-cddf8b1a7334",
+		"name": "master-spring-boot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30495217"
+	},
+	"item": [
+		{
+			"name": "Properties",
+			"item": [
+				{
+					"name": "Read Specific Property",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/prop/specific",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"prop",
+								"specific"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Property via Config",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/prop/via-config",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"prop",
+								"via-config"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All Properties",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/prop/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"prop",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
